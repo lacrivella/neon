@@ -3,8 +3,8 @@
 body {
   background-color: rgb(10, 11, 11);
   font-family: 'Text Me One', sans-serif;
-  /* background: url(./assets/brickbackground.png);
-  background-size: auto 100%; */
+  background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(17, 17, 17, 0.755)), url(./assets/brickbackground.png);
+  background-size: auto 100%;
 }
 
 .wrapper {
@@ -18,7 +18,8 @@ body {
 
 h1 {
   color:#90b3ba;
-  font-size: 7rem;
+  font-size: 6rem;
+  letter-spacing: .07em;
   text-shadow: 
   .1vw 0vw .25vw #90b3ba, .2vw 0vw .25vw #90b3ba, .4vw 0vw .25vw #90b3ba, 
   .1vw 0vw   0vw #0c569b, .2vw 0vw   0vw #0c569b, .4vw 0vw   0vw #0c569b,
