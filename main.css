@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Grand+Hotel|Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Megrim|Text+Me+One&display=swap');
 
 body {
   background-color: rgb(10, 11, 11);
-  font-family: 'Grand Hotel', cursive;
+  font-family: 'Text Me One', sans-serif;
   /* background: url(./assets/brickbackground.png);
   background-size: auto 100%; */
 }
