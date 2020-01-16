@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Poiret+One|Text+Me+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Text+Me+One&display=swap');
 body {
   background-color: rgb(10, 11, 11);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Text Me One', sans-serif;
   background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.851)), url(./assets/brickbackground.png);
   background-size: auto 100%;
 }
@@ -17,8 +16,8 @@ body {
 }
 
 h1 {
-  color:#b0d6de;
-  font-size: 6rem;
+  color:#b0ccde;
+  font-size: 5.5rem;
   letter-spacing: .07em;
   text-shadow: 
   .1vw 0vw .25vw #b0d6de, .2vw 0vw .25vw #b0d6de, .4vw 0vw .25vw #b0d6de, 
