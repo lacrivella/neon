@@ -89,6 +89,10 @@ h1 {
   width: 9%;
 }
 
+.plane {
+  width: 9%;
+}
+
 /* laptop screens */
 @media only screen and (min-width: 768px) {
 
@@ -120,6 +124,9 @@ body {
   width: 5%;
 }
 
+.plane {
+  width: 4%;
+}
 h1 {
   color:#b0ccde;
   font-size: 5.5rem;
