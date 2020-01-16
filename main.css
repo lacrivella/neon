@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Megrim|Text+Me+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Dosis|Text+Me+One|Vibur&display=swap');
 body {
   background-color: rgb(10, 11, 11);
-  font-family: 'Text Me One', sans-serif;
+  font-family: 'Vibur', cursive;
   background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.851)), url(./assets/brickbackground.png);
   background-size: auto 100%;
 }
