@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Text+Me+One|Vibur&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Poiret+One|Text+Me+One&display=swap');
+
 body {
   background-color: rgb(10, 11, 11);
-  font-family: 'Vibur', cursive;
+  font-family: 'Poiret One', cursive;
   background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.851)), url(./assets/brickbackground.png);
   background-size: auto 100%;
 }
@@ -16,11 +17,11 @@ body {
 }
 
 h1 {
-  color:#90b3ba;
+  color:#b0d6de;
   font-size: 6rem;
   letter-spacing: .07em;
   text-shadow: 
-  .1vw 0vw .25vw #90b3ba, .2vw 0vw .25vw #90b3ba, .4vw 0vw .25vw #90b3ba, 
+  .1vw 0vw .25vw #b0d6de, .2vw 0vw .25vw #b0d6de, .4vw 0vw .25vw #b0d6de, 
   .1vw 0vw   0vw #0c569b, .2vw 0vw   0vw #0c569b, .4vw 0vw   0vw #0c569b,
   .1vw 0vw  .1vw #0c569b, .2vw 0vw  .1vw #0c569b, .4vw 0vw  .1vw #0c569b,
   .1vw 0vw   2vw #0c569b, .2vw 0vw   2vw #0c569b, .4vw 0vw   2vw #0c569b, 
