@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  background-color: black;
+}
+
+div {
+  text-align:center;
+  position:absolute;
+}
+
+h1 {
+  color:rgb(124, 198, 240);
+  font-family: 'Raleway', sans-serif;
+  font-size:64px;
+  letter-spacing:10px;
+}
+
+#offset {
+  animation: letter-flicker 3s linear infinite;
+}
+
+@keyframes text-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgb(12, 86, 155);
+  }
+  
+  2% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  8% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  9% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  12% {
+    opacity:0.1;
+    text-shadow: 0px 0px rgba(12, 86, 155);
+  }
+  20% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155)
+  }
+  25% {
+    opacity:0.3;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155)
+  }
+  30% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155)
+  }
+  
+  70% {
+    opacity:0.7;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155)
+  }
+  
+  72% {
+    opacity:0.2;
+    text-shadow:0px 0px 29px rgba(12, 86, 155)
+  }
+  
+  77% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155)
+  }
+  100% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155)
+  }
+}
+
+
+@keyframes letter-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  2% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  4% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  
+  
+  19% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  21% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  23% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  
+  80% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  83% {
+    opacity:0.4;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+  87% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(12, 86, 155);
+  }
+}
