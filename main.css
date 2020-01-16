@@ -78,18 +78,22 @@ h1 {
 
 /* icons */
 .linkedin {
-  width: 9%;
+  width: 8%;
 }
 
 .github {
-  width: 9%;
+  width: 8%;
 }
 
 .twitter {
-  width: 9%;
+  width: 8%;
 }
 
 .plane {
+  width: 9%;
+}
+
+.cv {
   width: 9%;
 }
 
@@ -113,20 +117,25 @@ body {
 }
 /* icons */
 .linkedin {
-  width: 5%;
+  width: 3%;
 }
 
 .github {
-  width: 5%;
+  width: 3%;
 }
 
 .twitter {
-  width: 5%;
+  width: 3%;
 }
 
 .plane {
-  width: 4%;
+  width: 3%;
 }
+
+.cv {
+  width: 3%;
+}
+
 h1 {
   color:#b0ccde;
   font-size: 5.5rem;
