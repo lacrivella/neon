@@ -78,11 +78,15 @@ h1 {
 
 /* icons */
 .linkedin {
-  width: 10%;
+  width: 9%;
 }
 
 .github {
-  width: 10%;
+  width: 9%;
+}
+
+.twitter {
+  width: 9%;
 }
 
 /* laptop screens */
@@ -102,6 +106,18 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+/* icons */
+.linkedin {
+  width: 5%;
+}
+
+.github {
+  width: 5%;
+}
+
+.twitter {
+  width: 5%;
 }
 
 h1 {
