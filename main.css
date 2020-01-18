@@ -116,10 +116,9 @@ body {
   justify-content: center;
 }
 /* icons */
-.linkedin {
+.linkedin:hover {
   width: 3%;
 }
-
 .github {
   width: 3%;
 }
@@ -135,6 +134,7 @@ body {
 .cv {
   width: 3%;
 }
+
 
 h1 {
   color:#b0ccde;
