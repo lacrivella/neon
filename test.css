@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+
+svg#twitter {
+  height: 3rem;
+  width: 3rem;
+}
+
+#twitter-path {
+  fill: #545454;
+  stroke: #b0d6de;
+  stroke-width: .5rem;
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  stroke-linecap: butt;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+  -ms-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+
+#twitter-path:hover {
+  fill: #b0d6de;
+  stroke-dashoffset: 1500;
+  stroke-dasharray: 1250;
+}
