@@ -8,12 +8,14 @@
   <title>testing</title>
 </head>
 <body>
-    <svg viewBox="0 0 32 32" id="heart">
-        <path id="heart-path" d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454
-          C30,20.335,16,28.261,16,28.261z"/>            
-      </svg>
-    
-      <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" id="twitter">
+    <!-- Having svgs embedded directly in the code allows for more control to directly manipulate it -->
+    <!-- use makes code cleaner svgs all at the bottom -->
+      <use href="#twitter"><a href="https://twitter.com/lacrivella"></use>
+
+
+
+
+      <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" symbol id="twitter" class="twitter-example">
         <!-- dot -->
         <path id="twitter-path" d="m386 53c0 5.523438-4.476562 10-10 10s-10-4.476562-10-10 
           4.476562-10 10-10 10 4.476562 10 10zm0 0"/>

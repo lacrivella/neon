@@ -9,20 +9,15 @@ svg#twitter {
 
 #twitter-path {
   fill: #545454;
-  stroke: #b0d6de;
-  stroke-width: .5rem;
-  stroke-dasharray: 1500;
-  stroke-dashoffset: 1500;
-  stroke-linecap: butt;
-  -webkit-transition: all 2s ease-out;
-  -moz-transition: all 2s ease-out;
-  -ms-transition: all 2s ease-out;
-  -o-transition: all 2s ease-out;
-  transition: all 2s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
 #twitter-path:hover {
-  fill: #b0d6de;
+  fill: #60a5f9;
   stroke-dashoffset: 1500;
   stroke-dasharray: 1250;
 }
