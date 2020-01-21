@@ -35,5 +35,11 @@ svg {
 #github-path:hover {
   fill: #b0ccde;
   stroke-dashoffset: 1500;
-  stroke-dasharray: 1250;
+  stroke-dasharray: 15;
+}
+
+a:hover {
+  fill: #yellow;
+  stroke-dashoffset: 1500;
+  stroke-dasharray: 15;
 }
