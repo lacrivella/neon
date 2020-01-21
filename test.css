@@ -1,10 +1,11 @@
 body {
   background-color: black;
+  background-image: url(https://uc9b07811d6c518672f8d26a35e3.dl.dropboxusercontent.com/cd/0/inline/AwmMDqYah5DoKBkhkNM69obQxeCGpdICLQgPE2KUm3dzjVCLeeIc08r7qxK9_WxCATpdY76cBQu2oJd0_QV0ldqcYKuHSG_CQEg33nEgO5jEOQ/file#);
 }
 
-svg#twitter {
-  height: 3rem;
-  width: 3rem;
+svg {
+  height: 4rem;
+  width: 3.5rem;
 }
 
 #twitter-path {
@@ -22,57 +23,17 @@ svg#twitter {
   stroke-dasharray: 1250;
 }
 
-ul {
-  margin:0;
-  padding:0;
-  display:flex;
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
+#github-path {
+  fill: #545454;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
-ul li {
-  list-style:none;
-  margin: 0 15px;
-}
-
-ul li a {
-  position: relative;
-  display: block;
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  line-height: 60px;
-  background: black;
-  border-radius: 50%;
-  font-size: 30px;
-  color: #666;
-  transition: .5s;
-}
-
-ul li a:before {
-  content: '';
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  border-radius:50%;
-  background: #0c569b;
-  transition: .5s;
-  transform: scale(.9);
-  z-index: -1;
-}
-
-ul li a:hover:before {
-  transform: scale(1.2);
-  box-shadow: 0 0 15px #0c569b;
-  filter: blur(3px);
-}
-
-ul li a:hover {
-  color: #b0d6de;
-  box-shadow: 0 0 15px #0c569b;
-  text-shadow: 0 0 15px #0c569b;
+#github-path:hover {
+  fill: #b0ccde;
+  stroke-dashoffset: 1500;
+  stroke-dasharray: 1250;
 }
