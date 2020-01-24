@@ -77,24 +77,24 @@ h1 {
 }
 
 /* icons */
-.linkedin {
-  width: 8%;
+svg {
+  height: 2.7rem;
+  width: 2.7rem;
 }
 
-.github {
-  width: 8%;
+.path {
+  fill: #545454;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
-.twitter {
-  width: 8%;
-}
-
-.plane {
-  width: 9%;
-}
-
-.cv {
-  width: 9%;
+.path:hover {
+  fill: #98b6d0;
+  stroke-dashoffset: 1500;
+  stroke-dasharray: 1250;
 }
 
 /* laptop screens */
@@ -120,23 +120,24 @@ object {
   justify-content: center;
 }
 /* icons */
-.linkedin:hover {
-  width: 3%;
-}
-.github {
-  width: 3%;
+svg {
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
-.twitter {
-  width: 3%;
+.path {
+  fill: #545454;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
-.plane {
-  width: 3%;
-}
-
-.cv {
-  width: 3%;
+.path:hover {
+  fill: #98b6d0;
+  stroke-dashoffset: 1500;
+  stroke-dasharray: 1250;
 }
 
 
