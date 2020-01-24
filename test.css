@@ -8,21 +8,6 @@ svg {
   width: 3.5rem;
 }
 
-#twitter-path {
-  fill: #545454;
-  -webkit-transition: all 1s ease-out;
-  -moz-transition: all 1s ease-out;
-  -ms-transition: all 1s ease-out;
-  -o-transition: all 1s ease-out;
-  transition: all 1s ease-out;
-}
-
-#twitter-path:hover {
-  fill: #60a5f9;
-  stroke-dashoffset: 1500;
-  stroke-dasharray: 1250;
-}
-
 .path {
   fill: #545454;
   -webkit-transition: all 1s ease-out;
@@ -35,5 +20,5 @@ svg {
 .path:hover {
   fill: #b0ccde;
   stroke-dashoffset: 1500;
-  stroke-dasharray: 15;
+  stroke-dasharray: 1250;
 }
