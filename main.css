@@ -4,7 +4,7 @@ html {
   background-color: rgb(10, 11, 11);
   font-family: 'Text Me One', sans-serif;
   background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.851)), url(./assets/brickbackground.png);
-  background-size: cover 100%;
+  background-size: cover;
 }
 
 .wrapper {
@@ -101,12 +101,13 @@ ul {
   list-style: none;
   display: flex;
   align-items: center;
-  padding: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 li {
   padding-right: .2rem;
-  margin: none;
+  margin: 0px;
 }
 
 /* laptop screens */
