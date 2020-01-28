@@ -5,7 +5,6 @@ html {
   font-family: 'Text Me One', sans-serif;
   background: linear-gradient(rgba(0, 0, 0, 0.755), rgba(0, 0, 0, 0.851)), url(./assets/brickbackground.png);
   background-size: cover 100%;
-  overflow: visible;
 }
 
 .wrapper {
@@ -15,6 +14,7 @@ html {
   align-items: center;
   text-align: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -83,7 +83,7 @@ svg {
 }
 
 .path {
-  fill: #292828;
+  fill: #545454;
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
   -ms-transition: all 1s ease-out;
@@ -95,6 +95,18 @@ svg {
   fill: #98b6d0;
   stroke-dashoffset: 1500;
   stroke-dasharray: 1250;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: none;
+}
+
+li {
+  padding-right: .2rem;
+  margin: none;
 }
 
 /* laptop screens */
@@ -126,7 +138,7 @@ svg {
 }
 
 .path {
-  fill: #292828;
+  fill: #545454;
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
   -ms-transition: all 1s ease-out;
